@@ -1,0 +1,92 @@
+.card:hover{
+transform: scale(1.1);
+}
+@keyframes beat{
+    0%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes move{
+    0%{
+        transform:
+        rotate(-90deg);
+    }
+    100%{
+        transform:rotate(10deg);
+    }
+}
+.reem{
+    transform: rotate(45deg);
+    border-radius: 50% 0 0;
+    background-color:rgb(139, 133, 133);
+    font-size: 1.2em;
+    font-weight: 700;
+    color: aliceblue;   
+}
+
+.con{
+background-color: rgb(190, 135, 241);
+border-radius: 10px;
+animation:  3s  linear;
+
+}
+.con1{
+    background-color: rgb(190, 135, 241);
+    border-radius: 10px;
+    animation:  3s ;
+     
+}
+@keyframes left{
+    0%{
+        transform: translateX(-300%);
+
+    }
+     100%{
+
+        transform: translateX(0);
+     }       
+
+
+}
+
+@keyframes right{
+    0%{
+        transform: translateX(300%);
+
+    }
+     100%{
+
+        transform: translateX(0);
+     }       
+
+
+}
+@keyframes walk{
+    0%{
+        transform: scale(0);
+    }
+    100%{transform: scale(1);}
+}
+.coffe{
+    font-size: 1.4em;
+    font-weight: 700;
+   
+}
+
+
+
+
+
+
+
+
+                    
+
+
+
+
+
